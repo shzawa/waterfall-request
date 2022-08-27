@@ -1,5 +1,5 @@
+import { Fetch } from "../../common/components/Fetch"
 import { GithubRepoType, GithubUserType } from "../types/github"
-import { Fetch } from "./Fetch"
 import { RepoMenu } from "./RepoMenu"
 
 type UserRepositoriesProps = Pick<GithubUserType, 'login'> & {

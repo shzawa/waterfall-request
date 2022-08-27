@@ -1,5 +1,5 @@
 import './App.css';
-import { GithubUser } from './components/GithubUser';
+import { GithubUser } from './github/components/GithubUser';
 
 const App = () => {
   return (

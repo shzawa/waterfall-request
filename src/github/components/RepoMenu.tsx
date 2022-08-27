@@ -1,7 +1,8 @@
 import { useEffect } from "react"
-import { useIterator } from "../hooks/useIterator"
+import { useIterator } from "../../common/hooks/useIterator"
 import { GithubRepoType, GithubUserType } from "../types/github"
 import { RepositoryReadme } from "./RepositoryReadme"
+
 
 type RepoMenuProps = Pick<GithubUserType, 'login'> & {
   repositories: GithubRepoType[]
